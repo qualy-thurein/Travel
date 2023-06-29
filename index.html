@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>旅とバイクとサウナ</title>
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+  <link rel="stylesheet" href="./assets/css/common.css">
+  <link rel="stylesheet" href="./assets/css/slick.css">
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <section class="mw_1920" id="mv">
+    <div class="container">
+      <div class="nav_bar" id="nav_bar">
+        <a href="index.html">
+          <div class="logo_section">
+            <img src="./assets/images/logo.png" alt="logo_img" class="pc" />
+            <img src="./assets/images/logo_sp.png" alt="logo_img" class="sp" />
+            <span>国内旅行・海外旅行・ツーリング・サ活の記録</span>
+          </div>
+        </a>
+        <div class="nav_direction">
+          <span>国内旅行・海外旅行・ツーリング・サ活の記録</span>
+          <div class="choose_menu">
+            <a href="#">
+              <div class="japan_map navi_icons">
+                <img src="./assets/images/japan_map.png" alt="" />
+                <small>国内旅行ログ</small>
+              </div>
+            </a>
+            <a href="">
+              <div class="world_icon navi_icons">
+                <img src="./assets/images/world_icon.png" alt="" />
+                <small>海外旅行ログ</small>
+              </div>
+            </a>
+            <a href="">
+              <div class="bike_icon navi_icons">
+                <img src="./assets/images/bike_icon.png" alt="" />
+                <small>ツーリング</small>
+              </div>
+            </a>
+            <a href="">
+              <div class="sitting_icon navi_icons">
+                <img src="./assets/images/sitting_icon.png" alt="" />
+                <small>サウナ</small>
+              </div>
+            </a>
+            <a href="">
+              <div class="ofuro_icon navi_icons">
+                <img src="./assets/images/ofuro_icon.png" alt="" />
+                <small>温泉</small>
+              </div>
+            </a>
+            <a href="">
+              <div class="workingshon_icon navi_icons">
+                <img src="./assets/images/workingshon_icon.png" alt="" />
+                <small>ワーケーション</small>
+              </div>
+            </a>
+            <a href="">
+              <div class="fork_spoon_icon navi_icons">
+                <img src="./assets/images/fork&spoon_icon.png" alt="" />
+                <small>グルメ</small>
+              </div>
+            </a>
+            <div class="search">
+              <div class="upper">
+                <input type="text" placeholder="検査キーボードを入力" />
+                <button>
+                  <img src="./assets/images/lens_icon.png" alt="search_icon" />
+                </button>
+              </div>
+              <div class="lower">
+                <a><i class="fa-brands fa-twitter"></i></a>
+                <a><i class="fa-brands fa-instagram"></i></a>
+                <a><i class="fa-brands fa-youtube"></i></a>
+                <a><i class="fa-solid fa-envelope"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+          <p class="menu-off">MENU</p>
+          <p class="menu-open">CLOSE</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- menu click -->
+  <section class="menu" id="menu">
+    <div class="menu_text">
+      <form action="">
+        <input type="text" placeholder="検査キーボードを入力" />
+        <hr />
+        <ul>
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>国内旅行ログ</p>
+                <div class="">
+                  <img src="./assets/images/japan_map.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>海外旅行ログ</p>
+                <div class="">
+                  <img src="./assets/images/world_icon.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>ツーリング</p>
+                <div class="">
+                  <img src="./assets/images/bike_icon.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>サウナ</p>
+                <div class="">
+                  <img src="./assets/images/sitting_icon.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>温泉</p>
+                <div class="">
+                  <img src="./assets/images/ofuro_icon.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>ワーケーション</p>
+                <div class="">
+                  <img src="./assets/images/workingshon_icon.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+          <li>
+            <a href="">
+              <div class="nav_list">
+                <p>グルメ</p>
+                <div class="">
+                  <img src="./assets/images/fork&spoon_icon.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </li>
+          <hr />
+        </ul>
+        <div class="menu_logos">
+          <a><i class="fa-brands fa-twitter"></i></a>
+          <a><i class="fa-brands fa-instagram"></i></a>
+          <a><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="menu_contact">
+          <button>お問い合わせ</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- travel slide -->
+  <section class="travel_slide">
+    <div class="container">
+      <div class="top_side">
+        <div class="travel_slide_top slider slider-for">
+          <div class="img_slide">
+            <img src="./assets/images/domestic_img1.png" alt="国内旅行ログの画像" class="pc" />
+            <img src="./assets/images/domestic_img1_sp.png" alt="国内旅行ログの画像" class="sp" />
+            <div class="img-slide-text">＃国内旅行ログ</div>
+          </div>
+          <div class="img_slide">
+            <img src="./assets/images/domestic_img2.png" alt="海外旅行ログの画像" class="pc" />
+            <img src="./assets/images/domestic_img2_sp.png" alt="海外旅行ログの画像" class="sp" />
+            <div class="img-slide-text">＃海外旅行ログ</div>
+          </div>
+          <div class="img_slide" id="biking">
+            <img src="./assets/images/domestic_img3.png" alt="ツーリングの画像" class="pc" />
+            <img src="./assets/images/domestic_img3_sp.png" alt="ツーリングの画像" class="sp" />
+            <div class="img-slide-text">＃ツーリング</div>
+          </div>
+          <div class="img_slide">
+            <img src="./assets/images/domestic_img4.png" alt="サウナの画像" class="pc" />
+            <img src="./assets/images/domestic_img4_sp.png" alt="サウナの画像" class="sp" />
+            <div class="img-slide-text">＃サウナ</div>
+          </div>
+          <div class="img_slide">
+            <img src="./assets/images/domestic_img5.png" alt="温泉の画像" class="pc" />
+            <img src="./assets/images/domestic_img5_sp.png" alt="温泉の画像" class="sp" />
+            <div class="img-slide-text">＃温泉</div>
+          </div>
+          <div class="img_slide">
+            <img src="./assets/images/domestic_img6.png" alt="ワーケーションの画像" class="pc" />
+            <img src="./assets/images/domestic_img6_sp.png" alt="ワーケーションの画像" class="sp" />
+            <div class="img-slide-text">＃ワーケーション</div>
+          </div>
+          <div class="img_slide">
+            <img src="./assets/images/domestic_img7.png" alt="グルメの画像" class="pc" />
+            <img src="./assets/images/domestic_img7_sp.png" alt="グルメの画像" class="sp" />
+            <div class="img-slide-text">＃グルメ</div>
+          </div>
+        </div>
+        <div class="travel_slide_bottom slider-nav">
+          <div class="">
+            <span class="travel-slide-txt">47都道府県を制覇した国内旅行の記録です。日帰り旅行、連泊、ドライブでこれまでに行ったおすすめス
+              ポットや旅行スタイルを綴っています。</span>
+          </div>
+          <div class="">
+            <p class="travel-slide-txt">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス
+              トテキストテキストテキストテキスト
+            </p>
+          </div>
+          <div class="">
+            <p class="travel-slide-txt">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス
+              トテキストテキストテキストテキスト
+            </p>
+          </div>
+          <div class="">
+            <p class="travel-slide-txt">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス
+              トテキストテキストテキストテキスト
+            </p>
+          </div>
+          <div class="">
+            <p class="travel-slide-txt">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス
+              トテキストテキストテキストテキスト
+            </p>
+          </div>
+          <div class="">
+            <p class="travel-slide-txt">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス
+              トテキストテキストテキストテキスト
+            </p>
+          </div>
+          <div class="">
+            <p class="travel-slide-txt">
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキス
+              トテキストテキストテキストテキスト
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- hot news -->
+  <section class="hotnews-section">
+    <div class="container">
+      <h2 class="main-ttl">
+        HOT NEWS
+        <span>注目記事</span>
+      </h2>
+
+      <div class="list">
+        <ul>
+
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+
+            </div>
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class="new-list news-list-btn1">
+                  <a href=""> 国内旅行ログ</a>
+                </div>
+
+                <div class="new-list news-list-btn2">
+                  <a href=""> 関東</a>
+                </div>
+
+                <div class="new-list news-list-btn3">
+                  <a href="">東京</a>
+
+                </div>
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list-btn4">
+                  <a href=""> ワーケーション</a>
+                </div>
+
+                <div class="new-list news-list-btn5">
+                  <a href=""> グルメ</a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class=" new-list news-list2-btn1">
+                  <a href="">
+                    国内旅行ログ
+                  </a>
+                </div>
+
+                <div class="new-list news-list2-btn2">
+                  <a href="">
+                    北陸・甲信越
+                  </a>
+                </div>
+              </div>
+
+              <div class=" list-flex">
+                <div class=" new-list news-list2-btn3">
+                  <a href="">
+                    山梨
+                  </a>
+                </div>
+
+                <div class="new-list news-list2-btn4">
+                  <a href="">
+                    ツーリング
+                  </a>
+                </div>
+
+                <div class="new-list news-list2-btn5">
+                  <a href="">
+                    サウナ
+                  </a>
+                </div>
+              </div>
+
+              <div class=" list-flex">
+                <div class="new-list news-list2-btn6">
+                  <a href="">
+                    温泉
+                  </a>
+                </div>
+
+                <div class="new-list news-list2-btn7">
+                  <a href="">
+                    グルメ
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class=" new-list news-list3-btn1">
+                  <a href="">
+                    海外旅行ログ
+                  </a>
+                </div>
+
+                <div class=" new-list news-list3-btn2">
+                  <a href="">
+                    ワーケーション
+                  </a>
+                </div>
+              </div>
+              <div class="list-flex">
+                <div class="new-list news-list3-btn3">
+                  <a href="">
+                    グルメ
+                  </a>
+                </div>
+              </div>
+            </div>
+
+          </li>
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class="new-list news-list4-btn1">
+                  <a href="">
+                    国内旅行ログ
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list4-btn2">
+                  <a href="">
+                    北陸・甲信越
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list4-btn3">
+                  <a href="">
+                    山梨
+                  </a>
+                </div>
+
+                <div class="new-list news-list4-btn4">
+                  <a href="">
+                    ツーリング
+                  </a>
+                </div>
+
+                <div class="new-list news-list4-btn5">
+                  <a href="">
+                    サウナ
+                  </a>
+                </div>
+
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list4-btn6">
+                  <a href="">
+                    温泉
+                  </a>
+                </div>
+
+                <div class="new-list news-list4-btn7">
+                  <a href="">
+                    グルメ
+                  </a>
+                </div>
+
+
+
+              </div>
+
+            </div>
+
+          </li>
+        </ul>
+
+        <ul>
+
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class="new-list news-list5-btn1">
+                  <a href="">
+                    国内旅行ログ
+                  </a>
+                </div>
+
+                <div class="new-list news-list5-btn2">
+                  <a href="">
+                    関東
+                  </a>
+                </div>
+
+                <div class="new-list news-list5-btn3">
+                  <a href="">
+                    東京
+                  </a>
+                </div>
+
+
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list5-btn4">
+                  <a href="">
+                    ワーケーション
+                  </a>
+                </div>
+
+                <div class="new-list news-list5-btn4">
+                  <a href="">
+                    グルメ
+                  </a>
+                </div>
+
+
+              </div>
+            </div>
+          </li>
+
+
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class="new-list news-list6-btn1">
+                  <a href="">
+                    国内旅行ログ
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list6-btn2">
+                  <a href="">
+                    北陸・甲信越
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list6-btn3">
+                  <a href="">
+                    山梨
+                  </a>
+                </div>
+
+                <div class="new-list news-list6-btn4">
+                  <a href="">
+                    ツーリング
+                  </a>
+                </div>
+
+                <div class="new-list news-list6-btn5">
+                  <a href="">
+                    サウナ
+                  </a>
+                </div>
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list6-btn6">
+                  <a href="">
+                    温泉
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list6-btn7">
+                  <a href="">
+                    グルメ
+                  </a>
+
+                </div>
+              </div>
+            </div>
+
+          </li>
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class="new-list news-list7-btn1">
+                  <a href="">
+                    海外旅行ログ
+                  </a>
+                </div>
+
+                <div class="new-list news-list7-btn2">
+                  <a href="">
+                    ワーケーション
+                  </a>
+                </div>
+
+
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list7-btn3">
+                  <a href="">
+                    グルメ
+                  </a>
+                </div>
+              </div>
+            </div>
+
+
+          </li>
+
+          <li>
+            <div class="news-img">
+              <a href="">
+                <div class="new-img-txt">
+                  タイトルタイトルタ <br> イ トルタイトル
+                </div>
+              </a>
+            </div>
+            <div class="news-list-btn">
+              <div class="list-flex">
+                <div class="new-list news-list8-btn1">
+                  <a href="">
+                    国内旅行ログ
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list8-btn2">
+                  <a href="">
+                    北陸・甲信越
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list8-btn3">
+                  <a href="">
+                    山梨
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list8-btn4">
+                  <a href="">
+                    ツーリング
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list8-btn5">
+                  <a href="">
+                    サウナ
+                  </a>
+
+                </div>
+              </div>
+
+              <div class="list-flex">
+                <div class="new-list news-list8-btn6">
+                  <a href="">
+                    温泉
+                  </a>
+
+                </div>
+
+                <div class="new-list news-list8-btn7">
+                  <a href="">
+                    グルメ
+                  </a>
+
+                </div>
+              </div>
+
+
+
+            </div>
+
+
+          </li>
+        </ul>
+
+      </div>
+
+      <div class="view-more-btn">
+        <a href="">
+          <div class="view-btn">
+            <span class="btn-txt">VIEW MORE</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="ad-container">
+        <div class="ad1">
+          <img src="./assets/images/ad1.png">
+        </div>
+        <div class="ad-2">
+          <img src="./assets/images/ad2.png">
+        </div>
+      </div>
+  </section>
+
+  <!-- footer -->
+  <section class="mw_1920">
+    <div class="container">
+      <div class="footer">
+        <div class="social-blk">
+          <h2>follow us</h2>
+          <button>
+            <a><i class="fa-brands fa-twitter"></i></a>
+          </button>
+          <button>
+            <a><i class="fa-brands fa-instagram"></i></a>
+          </button>
+          <button>
+            <a><i class="fa-brands fa-youtube"></i></a>
+          </button>
+          <button>
+            <a><i class="fa-solid fa-envelope"></i></a>
+          </button>
+        </div>
+        <div class="scroll-top">
+          <a href="#mv">
+            <img src="assets/images/scroll_top_icon.png" alt="トップへ">
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer_text">
+      <small>©️ 旅とバイクとサウナ</small>
+    </div>
+    <!-- <div class="scrolltop">
+      <a href="#top" class="pagetop">
+        <picture>
+            <img src="assets/images/scroll_top_icon.png" alt="トップへ">
+        </picture>
+        </a>
+    </div> -->
+  </section>
+  <div class="overlay"></div>
+  <script src="./assets/js/jquery-3.4.1.min.js"></script>
+  <script src="./assets/js/slick.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

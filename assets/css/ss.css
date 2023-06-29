@@ -1,0 +1,157 @@
+.info {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.info .section-1 {
+    border-bottom: 2px solid var(--blue);
+}
+
+.info .domestic .skyblue-bg {
+    background-color: var(--skyblue);
+}
+
+.info .domestic .skyblue-bg>h2 {
+    background-color: var(--yellow_green);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.info .domestic .router {
+    display: flex;
+    padding: 3% 5%;
+}
+
+.ratio {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-bottom: 2px solid var(--blue);
+}
+
+.ratio .text-by {
+    display: flex;
+    align-items: end;
+}
+
+.ratio .text-by .circle {
+    width: 80px;
+    height: 100px;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+}
+
+/* third section */
+.third-section {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.third-section-h2,
+.third-section-h2-below,
+.third-section-h3,
+.third-section-h3-below {
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.third-section-h2 {
+    margin-bottom: 10px;
+}
+
+.third-section-h2>h2,
+.third-section-h2-below {
+    padding: 18px;
+    background-color: var(--skyblue);
+}
+
+.third-section-h2>h2::before,
+.third-section-h2-below>h2::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 5px;
+    content: '';
+    background-color: var(--blue);
+}
+
+.third-section-h2-below>h2::before {
+    height: 100%;
+}
+
+.third-section-h3>h3,
+.third-section-h3-below>h3 {
+    padding: 18px;
+}
+
+.third-section-h3-below>h3:first-child,
+.third-section-h3-below>h3:last-child {
+    height: 0px;
+}
+
+.third-section-h3>h3::before,
+.third-section-h3-below>h3:first-child::before {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;
+    content: '';
+    background-color: var(--blue);
+}
+
+.third-section .list-1,
+.third-section .list-2 {
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+    line-height: 30px;
+    margin-top: 50px;
+    padding: 10px 30px;
+}
+
+.third-section .list-1>ul {
+    position: relative;
+}
+
+.third-section .list-1 ul li::before {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--blue);
+    content: '';
+    transform: translate(-200%, 80%);
+}
+
+.third-section .list-2 ul li {
+    list-style-type: block;
+}
+
+.test-links {
+.verify {
+    width: 223px;
+    height: 40px;
+    background-color: var(--blue);
+    border: none;
+    color: var(--white);
+    display: block;
+    margin: 0 auto;
+}
+
+/* square block */
+.square {
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
+
+.test-links>a {
+    color: var(--blue);
+}
